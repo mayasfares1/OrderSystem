@@ -53,5 +53,11 @@ public class Orders {
     }
 
 
+    public void addCustomer(Customer customer) {
+        this.customer = customer;
+        if (customer != null) {
+            customer.getOrders().add(this);
+        }
+    }
 }
 

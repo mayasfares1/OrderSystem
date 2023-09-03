@@ -1,7 +1,11 @@
+package dao;
+
 import model.Orders;
 import model.Customer;
 import model.OrderLine;
 import model.Product;
+
+import java.util.List;
 
 
 public interface IOrderDAO
